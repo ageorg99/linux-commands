@@ -8,7 +8,7 @@
 
 Create or edit your SSH config file:
 
-
+```bash
 nano ~/.ssh/config
 
 Host grafana
