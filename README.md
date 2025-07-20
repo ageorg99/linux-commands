@@ -1,18 +1,12 @@
 # linux-commands
 
-## All my useful linux commands
+## All My Useful Linux Commands
 
-1. nano ~/.ssh/config  --> all my host ssh easy congifuration setup ( ssh grafana ) 
+---
 
-Config Example:
+### 1. SSH Host Configuration for Easy Access
 
-  GNU nano 7.2                                                                                                                                                 
-Host grafana
-    HostName XXXX.h-1.compute.amazonaws.com
-    User ubuntu
-    IdentityFile /home/alexandros-g/Documents/ubuntu.pem
+Create or edit your SSH config file:
 
-Use example:
-
-ssh grafana
-
+```bash
+nano ~/.ssh/config
