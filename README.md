@@ -8,5 +8,13 @@
 
 Create or edit your SSH config file:
 
-```bash
+
 nano ~/.ssh/config
+
+Host grafana
+    HostName XXXX.h-1.compute.amazonaws.com
+    User ubuntu
+    IdentityFile /home/alexandros-g/Documents/ubuntu.pem
+
+```bash
+ssh grafana
