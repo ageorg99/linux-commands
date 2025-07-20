@@ -12,11 +12,20 @@ Create or edit your SSH config file:
 nano ~/.ssh/config
 ```
 
-Host grafana
+Host servername
     HostName XXXX.h-1.compute.amazonaws.com
     User ubuntu
     IdentityFile /home/alexandros-g/Documents/ubuntu.pem
 
 ```bash 
-ssh grafana
+ssh servername
 ```
+
+### 2. Rename Server hostname:
+```bash 
+sudo hostname servername
+```
+
+### 3. 
+
+
