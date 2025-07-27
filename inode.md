@@ -33,6 +33,7 @@ A **hard link** is an **alternate name** for the same file. It points directly t
 ### 🔧 Example:
 ```bash
 ln original.txt hardlink.txt
+```
 
 # 🧷 Symbolic (Soft) Links in Linux
 
