@@ -33,3 +33,27 @@ A **hard link** is an **alternate name** for the same file. It points directly t
 ### 🔧 Example:
 ```bash
 ln original.txt hardlink.txt
+
+# 🧷 Symbolic (Soft) Links in Linux
+
+A **symbolic link** (or **soft link**) is a special type of file that **points to another file or directory** by **path**. It works like a shortcut in Windows.
+
+---
+
+## 🧠 What Is a Soft Link?
+
+A soft link:
+- Points to the **file path**, not the file's inode
+- Is its **own file** with its own inode
+- Can be created for **files** or **directories**
+- Can **cross file systems**
+- Becomes **broken** (dangling) if the target file is deleted or moved
+
+---
+
+## 🔧 How to Create a Soft Link
+
+### 📄 For Files:
+```bash
+ln -s /path/to/original.txt mylink.txt
+
